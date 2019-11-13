@@ -2,6 +2,8 @@
 
 This project uses an Electron application to broadcast Kinect Azure depth data over a peer connection to the browser. It is currently only tested in Chrome.
 
+Everything is built already. You shouldn't need to npm install, run or build anything not specified in the instructions below.
+
 ## To Run
 
 ## 1. Download and Run Server
@@ -10,7 +12,7 @@ You will need to be running Windows 10 and have the [Azure Kinect Camera SDK](ht
 
 Download and unzip [release 0.0.1](https://github.com/lisajamhoury/listen-azure/releases/tag/0.0.1). Make sure you download the file that is labeled "xxxx.zip," not the files labeled "Source Code."
 
-Once the file downloads, unzip the folder directly at the C:\ drive level to avoid an error with Windows filename size limitations.
+Once the file downloads, unzip the folder close to the C:\ drive level to avoid an error with Windows filename size limitations.
 
 ### 2. Connect Your Kinect
 
