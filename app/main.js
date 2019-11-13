@@ -20,9 +20,9 @@ app.on("window-all-closed", function() {
 // initialization and is ready to create browser windows.
 app.on("ready", function() {
   // Get width and height of primary display
-  // const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
-  const width = 800;
-  const height = 1200;
+  const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
+  // const width = 800;
+  // const height = 1200;
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width,

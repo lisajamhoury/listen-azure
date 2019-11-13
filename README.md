@@ -8,7 +8,7 @@ This project uses an Electron application to broadcast Kinect Azure depth data o
 
 You will need to be running Windows 10 and have the [Azure Kinect Camera SDK](https://docs.microsoft.com/en-us/azure/Kinect-dk/sensor-sdk-download) installed for the app to run correctly.
 
-Download and unzip [release 0.0.1 NEED LINK HERE XXXXXXXXXXXXX](). Make sure you download the file that is labeled "xxxx.zip," not the files labeled "Source Code."
+Download and unzip [release 0.0.1](https://github.com/lisajamhoury/listen-azure/releases/tag/0.0.1). Make sure you download the file that is labeled "xxxx.zip," not the files labeled "Source Code."
 
 Once the file downloads, unzip the folder directly at the C:\ drive level to avoid an error with Windows filename size limitations.
 
@@ -42,13 +42,13 @@ You are now broadcasting your Kinect images! Woot!
 1. In terminal clone the repository to your computer
 
 ```bash
-git clone XXXXXXXXXXX
+git clone https://github.com/lisajamhoury/listen-azure.git
 ```
 
 2. Move into folder and run a local server
 
 ```bash
-cd XXXXXXXXX
+cd listen-azure
 # Run a simple python server on your localhost
 # If python 2
 python -m SimpleHTTPServer 8000
