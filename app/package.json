@@ -1,0 +1,31 @@
+{
+  "name": "kinect-azure-server",
+  "version": "0.0.1",
+  "description": "Server for listen prototype",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lisajamhoury"
+  },
+  "keywords": [
+    "kinectazure",
+    "peer",
+    "peerjs",
+    "server"
+  ],
+  "author": "Lisa Jamhoury",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.1.0",
+    "electron": "^6.0.1",
+    "electron-packager": "^14.1.0",
+    "minimist": "^1.2.0",
+    "node_kinect": "^2.0.1",
+    "os": "^0.1.1",
+    "peer": "^0.2.10"
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Listen Music x Tech Prototype</title>
+
+    <!-- To do: replace this with import in app.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.0.4/peerjs.min.js"></script> -->
+
+    <script src="assets/js/peerjsv104.noerror.js"></script>
+    <script src="kinectron-app.js" type="text/JavaScript"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body style="background-color: white;">
+    <h1>Listen Music x Tech Prototype</h1>
+    <div class="intro">
+      <div id="ip-display">
+        <div id="connectionopen">
+          <p>
+            Your IP Address is <br />
+            <span class="highlight" id="ipaddress">xxxx</span>
+          </p>
+        </div>
+        <div id="newpeercreated">
+          <p>
+            You created a new peer server. Your network details are:
+            <br /><br />Peer ID:
+            <span class="highlight" id="peerid">xxxx</span> IP Address:
+            <span class="highlight" id="newipaddress">xxxx</span> Port:
+            <span class="highlight" id="port">xxxx</span><br /><br />
+          </p>
+        </div>
+      </div>
+      <div id="controls">
+        <div id="choose-frame">
+          <input
+            type="button"
+            class="frame-type"
+            id="single-frame-btn"
+            value="Single Frame"
+          />
+
+          <div class="clear-class" style="clear:both"></div>
+          <div id="single-frame">
+            <p>
+              Choose a single frame to begin broadcast. Click stop all to end
+              broadcast.
+            </p>
+            <div id="options">
+              <input
+                type="button"
+                class="frame-option"
+                id="depth"
+                value="Depth Image"
+              />
+              <input
+                type="button"
+                class="frame-option"
+                id="raw-depth"
+                value="Depth Buffer"
+              />
+              <input
+                type="button"
+                class="frame-option"
+                id="stop-all"
+                value="Stop All"
+              />
+              <div class="clear-class" style="clear:both"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="feed-images">
+      <canvas id="inputCanvas" width="1920" height="1080"></canvas>
+      <h4>Feed output to browser</h4>
+      <div id="feed-canvases">
+        <div id="depth-div">
+          <h5 id="depth-canvas-label">Depth Feed</h5>
+          <canvas id="depth-canvas" width="320" height="288"></canvas>
+        </div>
+        <div id="raw-depth-div">
+          <h5 id="raw-depth-canvas-label">Raw Deth Feed</h5>
+          <canvas id="raw-depth-canvas" width="320" height="288"></canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
