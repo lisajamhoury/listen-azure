@@ -1,6 +1,6 @@
 # Listen x Music x Tech Prototype
 
-![project cover](project_cover.png)
+![project cover](docs/assets/images/listen_2_sm.png)
 
 This project uses an Electron application to broadcast Kinect Azure depth data over a peer connection to the browser. It is currently only tested in Chrome.
 
