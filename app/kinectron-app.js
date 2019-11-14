@@ -365,7 +365,7 @@ function startRawDepth() {
     kinectAzure.releaseImageAndCamera();
 
     busy = false;
-  }, 1000 / 5); // 10fps
+  }, 1000 / 8); // 10fps
 }
 
 function stopRawDepth() {

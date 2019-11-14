@@ -74,7 +74,7 @@ function initPointCloud() {
     1,
     10000
   );
-  camera.position.set(0, 0, 10000);
+  camera.position.set(0, 0, 9200);
   controls = new THREE.TrackballControls(camera, renderer.domElement);
 
   // Create three.js scene
@@ -123,7 +123,7 @@ function createParticles() {
   // Create particles
   for (let i = 0; i < numParticles; i++) {
     let x = (i % DEPTHWIDTH) - DEPTHWIDTH * 0.5;
-    let y = DEPTHHEIGHT - Math.floor(i / DEPTHWIDTH);
+    let y = DEPTHHEIGHT - Math.floor(i / DEPTHWIDTH) - 200;
     let vertex = new THREE.Vector3(x, y, Math.random());
     particles.vertices.push(vertex);
 
@@ -160,7 +160,7 @@ function pointCloud(depthBuffer) {
 
   // Set desired depth resolution
   nDepthMinReliableDistance = 0;
-  nDepthMaxDistance = 2000;
+  nDepthMaxDistance = 3000;
   let j = 0;
 
   // Match depth buffer info to each particle
