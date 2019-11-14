@@ -40,19 +40,25 @@ Same concept as above, but rather than broadcasting to online users, broadcast t
 
 Azure Kinect depth feed running in Electron and broadcast over the local network with webRTC/PeerJS to the browser. A website running three.js visualizes the point cloud. The user has two or three controls to change the point cloud visualization.
 
+### Video: Prototype Website on Two Computers
+
 Here's an example of what the prototype looks like when running the website on two computers on the same network.
 
 <iframe src="https://player.vimeo.com/video/373044802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### Video: Prototype Server and Website Startup
 
 Here's a longer video that shows opening and running the Electron application and the client in the browser.
 
 <iframe src="https://player.vimeo.com/video/373044904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Instructions to run the code are available at [https://github.com/lisajamhoury/listen-azure](https://github.com/lisajamhoury/listen-azure).
+### Run the Prototype
+
+Instructions to run the prototype are available at [https://github.com/lisajamhoury/listen-azure](https://github.com/lisajamhoury/listen-azure).
 
 ## Technical Issues
 
-Currently I'm running into a lot of latency. The depth image is only able to broadcast reliably at 5-10 fps. There are a number of optimizations possible. The latency is only an issue for live usage. Not an issue for pre-recorded media. 
+Currently I'm running into a lot of latency. The depth image is only able to broadcast reliably at 5-10 fps. There are a number of optimizations possible. The latency is only an issue for live usage. Not an issue for pre-recorded media.
 
 ## Additional Photos
 
