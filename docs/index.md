@@ -50,6 +50,10 @@ Here's a longer video that shows opening and running the Electron application an
 
 Instructions to run the code are available at [https://github.com/lisajamhoury/listen-azure](https://github.com/lisajamhoury/listen-azure).
 
+## Technical Issues
+
+Currently I'm running into a lot of latency. The depth image is only able to broadcast reliably at 5-10 fps. There are a number of optimizations possible. The latency is only an issue for live usage. Not an issue for pre-recorded media. 
+
 ## Additional Photos
 
 ![project image](assets/images/listen_2_sm.png)
