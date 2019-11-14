@@ -69,7 +69,7 @@ function initPointCloud() {
 
   // Create three.js camera and controls
   camera = new THREE.PerspectiveCamera(
-    4,
+    30,
     renderer.domElement.width / renderer.domElement.height,
     1,
     10000
