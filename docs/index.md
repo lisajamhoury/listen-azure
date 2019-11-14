@@ -44,13 +44,13 @@ Azure Kinect depth feed running in Electron and broadcast over the local network
 
 Here's an example of what the prototype looks like when running the website on two computers on the same network.
 
-<iframe src="https://player.vimeo.com/video/373044802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/373044802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>
 
 ### Video: Prototype Server and Website Startup
 
 Here's a longer video that shows opening and running the Electron application and the client in the browser.
 
-<iframe src="https://player.vimeo.com/video/373044904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/373044904" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br><br>   
 
 ### Run the Prototype
 
